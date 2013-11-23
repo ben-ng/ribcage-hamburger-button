@@ -1,0 +1,36 @@
+button.ribcage-hamburger-btn {
+    display: block; /* show this only on small screens */
+
+    background: transparent;
+    font-size: 10px; /* change this value to increase/decrease button size */
+    z-index: 10;
+    width: 3.5em;
+    height: 40px;
+    margin: 0 0 0 10px;
+}
+
+button.ribcage-hamburger-btn span {
+    position: relative;
+    display: block;
+}
+
+button.ribcage-hamburger-btn span,
+button.ribcage-hamburger-btn span:before,
+button.ribcage-hamburger-btn span:after {
+    background-color: #fff;
+    width: 100%;
+    left: 0;
+    height: .2em;
+}
+
+button.ribcage-hamburger-btn span:before {
+    position: absolute;
+    margin-top: -.6em;
+    content: " ";
+}
+
+button.ribcage-hamburger-btn span:after {
+    position: absolute;
+    margin-top: .6em;
+    content: " ";
+}
