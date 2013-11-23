@@ -3,7 +3,7 @@ var ButtonBase = require('ribcage-button')
   , HamburgerButton = ButtonBase.extend({
       className: 'ribcage-hamburger-btn'
     , afterInit: function () {
-        this.label = '<span></span>';
+        this.label = '';
         this.icon = null;
       }
     });
