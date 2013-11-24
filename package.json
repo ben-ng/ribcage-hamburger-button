@@ -1,12 +1,15 @@
 {
   "name": "ribcage-hamburger-button",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A hamburger menu button for ribcage",
   "main": "ribcage-hamburger-button.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ben-ng/ribcage-hamburger-button.git"
+  },
   "keywords": [
     "ribcage",
     "backbone",
