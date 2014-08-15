@@ -19,7 +19,7 @@ button.ribcage-hamburger-btn span {
 button.ribcage-hamburger-btn span,
 button.ribcage-hamburger-btn span:before,
 button.ribcage-hamburger-btn span:after {
-    background-color: #000;
+    background-color: #fff;
     width: 100%;
     left: 0;
     height: .2em;
